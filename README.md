@@ -42,8 +42,13 @@ sudo yum –nogpgcheck install ./fancon*.rpm
 
 ##### Arch Linux (AUR)
 ```bash
-git clone https://aur.archlinux.org/fancon.git; cd fancon
-makepkg -sirc
+git clone https://github.com/Sprunglesonthehub/fancon-easy.git && cd fancon &&
+depinstall && makepkg -sirc 
+
+OR
+
+git@github.com:Sprunglesonthehub/fancon-easy.git && cd fancon && depinstall && makepkg -sirc
+
 ```
 
 
