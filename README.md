@@ -47,7 +47,8 @@ depinstall && makepkg -sirc
 
 OR
 
-git@github.com:Sprunglesonthehub/fancon-easy.git && cd fancon && depinstall && makepkg -sirc
+git@github.com:Sprunglesonthehub/fancon-easy.git && cd fancon &&
+depinstall && makepkg -sirc
 
 ```
 
