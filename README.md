@@ -44,9 +44,9 @@ sudo yum –nogpgcheck install ./fancon*.rpm
 ```bash
 git clone https://github.com/Sprunglesonthehub/fancon-easy.git && cd fancon-easy && cd fancon &&
 depinstall && makepkg -sirc 
-
+```
 OR
-
+```
 git clone git@github.com:Sprunglesonthehub/fancon-easy.git && cd fancon-easy && cd fancon &&
 depinstall && makepkg -sirc
 
